@@ -1,0 +1,120 @@
+@charset "UTF8";
+:root {
+    /*VARIAVENS*/
+    --cor0: #f9ccd3;
+    --cor1: #ffc6e6;
+    --cor2: #d2738d;
+    --cor3: #a91945;
+    --cor4: #2db5a1;
+    --cor5: #7c97a6;
+    --cor6: #ffffff;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #ffc6e6ce;
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    min-height: 150px;
+    padding: 5px;
+    text-align: left;
+    color: var(--cor3);
+}
+nav {
+    background-color: var(--cor3);
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.192);
+}
+nav a {
+    color: var(--cor6);
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 5px;
+    font-weight: bold;
+    margin: 5px;
+    transition-duration: .5s;
+}
+nav a:hover {
+    color: #a91945;
+    background-color: white;
+    border-radius: 5px;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+    margin-bottom: 10px;
+}
+main h1 {
+    background-image: linear-gradient(to right, var(--cor0), transparent);
+    color: #a91945;
+    font-family: 'Best' Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: inherit;
+    font-size: 2em;
+}
+main h2 {
+    color: var(--cor4);
+    font-size: 1.3em;
+    font-family: 'Best' Arial, Helvetica, sans-serif;
+    text-indent: 8px;
+    font-weight: bolder;
+    font-style: inherit;
+}
+main img {
+    width: 100%;
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    /* 1em é igual a 16px*/
+    line-height: 2em;
+    /*espaçamentro entre linhas... ou altura da linha....ou autura entre asa linhas*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.video {
+    background-color: #ffc6e6;
+    margin: 30px -30px 30px -30px;
+    padding: 20px;
+    padding-bottom: 60%;
+    position: relative;
+}
+div.video>iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+footer {
+    background-color: #a91945;
+    padding: 5px;
+    margin: 5px -0px;
+}
+footer>p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.2em;
+    color: #ffffff;
+    margin: auto;
+    font-weight: normal;
+}
+.menurodape {
+    padding: 5px;
+    margin: 0px -5px;
+    background-color: #a91945;
+    text-align: center;
+}
